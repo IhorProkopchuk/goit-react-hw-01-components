@@ -1,0 +1,44 @@
+.item {
+  margin: 10px;
+  width: 320px;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid rgb(196, 204, 211);
+}
+
+.avatar {
+  width: 75px;
+  margin: 10px 0;
+  border-radius: 10%;
+  border: 1px solid gray;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 25px;
+}
+
+.isOnline {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: green;
+}
+
+.isOffline {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: red;
+}
