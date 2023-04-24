@@ -7,10 +7,10 @@ import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './Transactions/TransactionHistory';
 
 //data
-import user from './Profile/user'
-import data from './Statistics/data';
-import friends from './FriendList/friends';
-import transactions from './Transactions/transactions';
+import user from '../data/user'
+import data from '../data/data';
+import friends from '../data/friends';
+import transactions from '../data/transactions';
 
 
 export const App = () => {
